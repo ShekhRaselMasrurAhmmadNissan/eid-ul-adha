@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	/* font-family: 'Stylish', sans-serif; */
+}
+
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 40px;
+}
+
+#heading-information p{
+	text-align: justify;
+	margin-bottom: 30px;
+}
+a {
+	text-decoration: none;
+}
+.btn {
+	font-size: 15px;
+	font-weight: 700;
+	color: white;
+	background-color: tomato;
+	padding: 10px 25px;
+	border: 2px solid transparent;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: font-size .5s;
+}
+
+.btn:hover {
+	font-size: 20px;
+}
+
+#heading {
+	color: white;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+	background-image: linear-gradient(to right, rgba(26, 26, 26, 1), rgba(26, 26, 26, 0)),
+	url("../media/images/cow-haat.png");
+	background-repeat: no-repeat;
+}
+
+#heading-information {
+	width: 700px;
+	position: relative;
+	top: 150px;
+	left: 200px;
+}
